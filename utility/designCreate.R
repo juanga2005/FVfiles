@@ -8,7 +8,7 @@
 
 #Email: jggarcia@sfu.ca
 
-#Last Modified: mar 08 ago 2017 16:42:25 PDT
+#Last Modified: mié 09 ago 2017 01:05:14 PDT
 
 #Purpose:Script to create the design points
 
@@ -18,9 +18,9 @@
 
 
 #Values of the parameters
-p=0.1
-L=-60
-z0=2.7
+p=0.471236
+L=-60.86922
+z0=2.661986
 
 f1=rep(p,64);f2=rep(z0,64);f3=rep(L,64)
 
