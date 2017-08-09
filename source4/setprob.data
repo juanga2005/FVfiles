@@ -1,0 +1,41 @@
+ 0.0	    ubar
+ 0.0	    vbar
+ 0.0	    wbar
+ 1          read wind data from file? (0 = no, 1 = yes)	
+ 4320       number of wind data elements
+ 1	     use vertical wind profile correction? (0 = no, 1 = power law, 2 = logarithmic)
+ 2           u_cutoff cut off height of velocity profile
+ -0.0027      settling velocity (should be negative so particles are falling)
+ 0.1    vertical wind correction coefficient (does not affect solution when using const wind)
+ 0.3       alphax
+ 0.3       alphay
+ 0.07        alphaz
+ 1	    k_zz_option	use vertical eddy diffusivity corrections? (0 = no, 1 = yes)
+ 0.05	    z_0 parameter for k_zz corrections
+ 2 	    z_low lower layer of variable k_zz (meters)
+ -10	    diffL parameter for k_zz corrections (very large values correspond to neutral atmos. class)
+ 2	    xlower boundary for diff (choice of robin give homog. Neumann)
+ 2    	    xupper boundary for diff (no robin BC)
+ 2  	    ylower boundary for diff (choice of robin give homog. Neumann)
+ 2  	    yupper boundary for diff (no robin BC)
+ 3  	    zlower boundary for diff (robin BC only supported here)
+ 2	    zupper boundary for diff (no robin BC)
+ -0.005     w_deposition ground deposition coefficient (should be negative so flux is going out of domain)
+4	    n_src number of sources
+ 0.0    G- output of source 1 (kg/s)
+ 748.0     x- pos of source 1 (meters)
+ 224.40     y- pos of source 1 (meters)
+ 15.0      z- pos of source 1 (meters)
+ 0.0     G- output of source 2
+ 625.60      x- pos of source 2
+ 176.80      y- pos of source 2
+ 35.0      z- pos of source 2
+ 0.0    G- output of source 3
+ 255.0     x- pos of source 3
+ 646.0     y- pos of source 3
+ 15.0      z- pos of source 3
+ 1.0     G- output of source 4
+ 251.60      x- pos of source 4
+ 867.0      y- pos of source 4
+ 15.0       z- pos of source 4
+  
