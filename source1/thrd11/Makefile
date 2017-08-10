@@ -2,7 +2,7 @@
 #	General Makefile for the 3D ADI Advec-diff problem
 #
 #
-export ADVDIFF= /home/juanpc/Documents/SFU_files/Research/FVfiles/source1/thrd11
+export ADVDIFF= /home/jggarcia/Documents/SFU_files/Research/FVfiles/source1/thrd11
 export PATHLINPACK= './LINPACK_lib'
 export PATHCLAW3= './claw3_lib'
 export PATHDIFF3= './ADIdiff3_lib'
